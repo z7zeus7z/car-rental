@@ -1,0 +1,152 @@
+
+.bookingContainer{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 5em;
+ 
+}
+
+.pageTitle{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+/*-----------TABS-------------------*/
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+  margin: 1.5em 0;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.tabs div {
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  cursor: pointer;
+  border-radius: 0.5em 0.5em 0 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.tabs div:hover {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.activeTab {
+  background-color: #fff;
+  color: #0077ff;
+  font-weight: 600;
+  border-bottom: 3px solid #0077ff;
+}
+
+/*------------------------------*/
+/*------BOOKINGINFO-----*/
+
+ .bookingInfo {
+  border-radius: 0.8em;
+  padding: 1.2em 1.5em;
+  margin: 1em 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bookingInfo:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.title h4 {
+  margin: 0 0 1em 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0077ff;
+}
+
+.yourBookings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8em 1em;
+  border-radius: 0.5em;
+  background-color: #f9f9f9;
+}
+
+.carName p,
+.bookDate p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+
+
+.darkSecondary {
+  background: #222;
+  color: #eee;
+}
+
+.darkSecondary .yourBookings {
+  background-color: #333;
+}
+/*---------------------------*/
+
+
+/*---PersonalInfo*/
+
+
+ .personalInfoContainer {
+  border-radius: 0.8em;
+  padding: 1.5em 2em;
+  margin: 1.5em 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.personalInfoContainer:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.title h4 {
+  margin-bottom: 1.2em;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0077ff;
+}
+
+.personalInfoContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.personalInfoContainer label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+
+.personalInfoContainer input {
+  padding: 0.6em 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.personalInfoContainer input:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.2);
+}
+
+
+

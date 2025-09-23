@@ -1,0 +1,66 @@
+.signInMainContainer{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    padding: 4em 0;
+}
+
+.signInCard{
+    width: 80%;
+    height: 30em;
+    border-radius: 1em;
+    padding: 1em;
+    max-width: 800px;
+}
+
+.cardTitle{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.signInput{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.signInput input {
+    width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.6rem;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+.signHelp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.signButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signButton button{
+     width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 0.6rem;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signUp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
