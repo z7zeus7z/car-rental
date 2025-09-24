@@ -18,10 +18,10 @@ const Ham = (props) => {
         <div className={`${style.hamLinks} ${Menu} ${theme} `}>
             <ul>
                 <Link className={style.link} onClick={toggleMenu} to={'/'}><li>Home</li></Link>
-                <Link onClick={toggleMenu} to={'/Cars'}><li>Cars</li></Link>
-                <Link onClick={toggleMenu} to={'/Bookings'}><li>Bookings</li></Link>
-                <Link onClick={toggleMenu} to={'/CarListing'}><li>List Your Car</li></Link>
-                <Link onClick={toggleMenu} to={'/SignIn'}><li>Sign in</li></Link>
+                <Link onClick={toggleMenu} to={'/cars'}><li>Cars</li></Link>
+                <Link onClick={toggleMenu} to={'/bookings'}><li>Bookings</li></Link>
+                <Link onClick={toggleMenu} to={'/carlisting'}><li>List Your Car</li></Link>
+                <Link onClick={toggleMenu} to={'/signin'}><li>Sign in</li></Link>
             </ul>
         </div>
     </>

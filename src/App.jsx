@@ -72,10 +72,10 @@ function App() {
       <Nav theme={theme} toggleTheme={toggleTheme}/>
       <Routes>
         <Route path="/" element={<Hero cars={cars} theme={theme}/>}/>
-        <Route path="/Cars" element={<Cars cars={cars} theme={theme}/>}/>
-        <Route path="/Bookings" element={<Booking theme={theme}/>}/>
-        <Route path="/CarListing" element={<CarListing theme={theme}/>}/>
-        <Route path="/SignIn" element={<Signin theme={theme}/>} />
+        <Route path="/cars" element={<Cars cars={cars} theme={theme}/>}/>
+        <Route path="/bookings" element={<Booking theme={theme}/>}/>
+        <Route path="/carlisting" element={<CarListing theme={theme}/>}/>
+        <Route path="/signin" element={<Signin theme={theme}/>} />
       </Routes>
     </>
   )

@@ -13,10 +13,10 @@ const Nav = (props) => {
           <div className={style.navlinks}>
               <ul>
                  <Link to={'/'}><li>Home</li></Link>
-                <Link to={'/Cars'}><li>Cars</li></Link>
-                <Link to={'/Bookings'}><li>Bookings</li></Link>
-                <Link to={'/CarListing'}><li>List Your Car</li></Link>
-                <Link to={'/SignIn'}><li>Sign in</li></Link>
+                <Link to={'/cars'}><li>Cars</li></Link>
+                <Link to={'/bookings'}><li>Bookings</li></Link>
+                <Link to={'/carlisting'}><li>List Your Car</li></Link>
+                <Link to={'/sigiIn'}><li>Sign in</li></Link>
               </ul>
             </div>
             <Switch theme={theme} toggleTheme={toggleTheme}/>
