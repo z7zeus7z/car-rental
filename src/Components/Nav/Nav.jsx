@@ -16,7 +16,7 @@ const Nav = (props) => {
                 <Link to={'/cars'}><li>Cars</li></Link>
                 <Link to={'/bookings'}><li>Bookings</li></Link>
                 <Link to={'/carlisting'}><li>List Your Car</li></Link>
-                <Link to={'/sigiIn'}><li>Sign in</li></Link>
+                <Link to={'/signin'}><li>Sign in</li></Link>
               </ul>
             </div>
             <Switch theme={theme} toggleTheme={toggleTheme}/>
